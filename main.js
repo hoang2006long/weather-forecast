@@ -57,32 +57,6 @@ document.addEventListener('keydown', (event) => {
           }
           setBackground(season)
 
-
-//           const getTime = () => data.timeZone
-
-//           let d = new Date((new Date().getTime())-25200*1000)
-//           d.toISOString()
-//  console.log(d)
-
-    // const dateBuilder = (timezone) => {
-      
-    //   const nowInLocalTime = Date.now()  + 1000 * (timezone / 3600);
-    //   const millitime = new Date(nowInLocalTime);
-    //   const dateFormat = millitime.toLocaleString();
-
-    //   let day = dateFormat.toLocaleString("en-US", {weekday: "long"});
-    //   let month = dateFormat.toLocaleString("en-US", {month: "long"}); 
-    //   let date = dateFormat.toLocaleString("en-US", {day: "numeric"});
-    //   let year = dateFormat.toLocaleString("en-US", {year: "numeric"}); 
-    //   let hours = dateFormat.toLocaleString("en-US", {hour: "numeric"}); 
-    //   let minutes = dateFormat.toLocaleString("en-US", {minute: "numeric"});
-
-    //   console.log( `${day} ${date} ${month} ${year} ${hours}:${minutes}`)
-    // }
-
-// dateBuilder(data.timeZone)
-
-          console.log(data)
           const htmls = () => {
             return `
             <div class="board__location">
